@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="430" viewBox="0 0 900 430" role="img" aria-label="Perfil de Simão: IT Associate na JE Europe, departamento de IT na Iscte Junior Consulting, Computer Science and Business Management, interesse em cibersegurança">
+  <defs>
+    <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#12284a"/>
+      <stop offset="1" stop-color="#0c1b33"/>
+    </linearGradient>
+    <linearGradient id="wedge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00e5ff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#00e5ff" stop-opacity="0.35"/>
+    </linearGradient>
+    <clipPath id="win"><rect width="900" height="430" rx="14"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#win)">
+    <rect width="900" height="430" fill="#050b17"/>
+    <rect width="900" height="38" fill="url(#bar)"/>
+    <circle cx="26" cy="19" r="6" fill="#2979ff"/>
+    <circle cx="48" cy="19" r="6" fill="#00b8d9"/>
+    <circle cx="70" cy="19" r="6" fill="#5ee0ff"/>
+    <text x="450" y="24" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="13" fill="#6f9bcc">sgrsp17@iscte — sysinfo</text>
+
+    <!-- prompt -->
+    <g font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'Courier New',monospace" font-size="15">
+      <text x="30" y="72" fill="#00e5ff">simao@iscte</text>
+      <text x="141" y="72" fill="#6f9bcc">:~$</text>
+      <text x="180" y="72" fill="#e6f3ff">sysinfo --profile</text>
+    </g>
+
+    <!-- logótipo sonar -->
+    <g transform="translate(130 248)">
+      <g fill="none" stroke="#1f4a82" stroke-width="1.5">
+        <circle r="78"/>
+        <circle r="56"/>
+        <circle r="34"/>
+        <circle r="13"/>
+      </g>
+      <line x1="-78" y1="0" x2="78" y2="0" stroke="#1f4a82"/>
+      <line x1="0" y1="-78" x2="0" y2="78" stroke="#1f4a82"/>
+      <g>
+        <path d="M0 0 L-39 -67.55 A78 78 0 0 1 0 -78 Z" fill="url(#wedge)"/>
+        <line x1="0" y1="0" x2="0" y2="-78" stroke="#00e5ff" stroke-width="2"/>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="6s" repeatCount="indefinite"/>
+      </g>
+      <circle cx="34" cy="-25" r="4" fill="#5ee0ff">
+        <animate attributeName="opacity" values="1;0.15;1" dur="3s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="-48" cy="21" r="3" fill="#2979ff">
+        <animate attributeName="opacity" values="0.2;1;0.2" dur="3s" begin="1s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="16" cy="52" r="3.5" fill="#00e5ff">
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="4s" begin="0.5s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="8" fill="#0a1f3d" stroke="#00e5ff" stroke-width="1.5"/>
+    </g>
+    <text x="130" y="362" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="12" fill="#4f86c6" letter-spacing="2">SONAR · ONLINE</text>
+
+    <!-- bloco interno com os dados -->
+    <rect x="250" y="88" width="630" height="320" rx="10" fill="#08162c" stroke="#1f4a82" stroke-width="1.5"/>
+
+    <g font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'Courier New',monospace" font-size="13.5">
+      <!-- chave à esquerda, valor colado à direita (x final = 858), pontilhado a preencher o espaço -->
+
+      <g opacity="0">
+        <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.3s" fill="freeze"/>
+        <text x="272" y="118" fill="#2979ff" font-weight="bold" textLength="32.4" lengthAdjust="spacing">user</text>
+        <line x1="312" y1="114" x2="809.5" y2="114" stroke="#27518a" stroke-width="1.5" stroke-dasharray="1 5" stroke-linecap="round"/>
+        <text x="817.5" y="118" fill="#e6f3ff" textLength="40.5" lengthAdjust="spacing">Simão</text>
+      </g>
+      <g opacity="0">
+        <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.55s" fill="freeze"/>
+        <text x="272" y="148" fill="#2979ff" font-weight="bold" textLength="32.4" lengthAdjust="spacing">role</text>
+        <line x1="312" y1="144" x2="704.2" y2="144" stroke="#27518a" stroke-width="1.5" stroke-dasharray="1 5" stroke-linecap="round"/>
+        <text x="712.2" y="148" fill="#e6f3ff" textLength="145.8" lengthAdjust="spacing">IT Associate - JEE</text>
+      </g>
+      <g opacity="0">
+        <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.8s" fill="freeze"/>
+        <text x="272" y="178" fill="#2979ff" font-weight="bold" textLength="32.4" lengthAdjust="spacing">role</text>
+        <line x1="312" y1="174" x2="744.7" y2="174" stroke="#27518a" stroke-width="1.5" stroke-dasharray="1 5" stroke-linecap="round"/>
+        <text x="752.7" y="178" fill="#e6f3ff" textLength="105.3" lengthAdjust="spacing">IT Dep. - IJC</text>
+      </g>
+      <g opacity="0">
+        <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.05s" fill="freeze"/>
+        <text x="272" y="208" fill="#2979ff" font-weight="bold" textLength="48.6" lengthAdjust="spacing">origin</text>
+        <line x1="328" y1="204" x2="785.2" y2="204" stroke="#27518a" stroke-width="1.5" stroke-dasharray="1 5" stroke-linecap="round"/>
+        <text x="793.2" y="208" fill="#e6f3ff" textLength="64.8" lengthAdjust="spacing">Portugal</text>
+      </g>
+      <g opacity="0">
+        <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.3s" fill="freeze"/>
+        <text x="272" y="238" fill="#2979ff" font-weight="bold" textLength="72.9" lengthAdjust="spacing">education</text>
+        <line x1="352" y1="234" x2="526.0" y2="234" stroke="#27518a" stroke-width="1.5" stroke-dasharray="1 5" stroke-linecap="round"/>
+        <text x="534.0" y="238" fill="#e6f3ff" textLength="324.0" lengthAdjust="spacing">Computer Science and Business Management</text>
+      </g>
+      <g opacity="0">
+        <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.55s" fill="freeze"/>
+        <text x="272" y="268" fill="#2979ff" font-weight="bold" textLength="48.6" lengthAdjust="spacing">status</text>
+        <line x1="328" y1="264" x2="607.0" y2="264" stroke="#27518a" stroke-width="1.5" stroke-dasharray="1 5" stroke-linecap="round"/>
+        <text x="615.0" y="268" fill="#e6f3ff" textLength="243.0" lengthAdjust="spacing">Building + Learning + Shipping</text>
+      </g>
+      <g opacity="0">
+        <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.8s" fill="freeze"/>
+        <text x="272" y="298" fill="#2979ff" font-weight="bold" textLength="64.8" lengthAdjust="spacing">toolchain</text>
+        <line x1="344" y1="294" x2="631.3" y2="294" stroke="#27518a" stroke-width="1.5" stroke-dasharray="1 5" stroke-linecap="round"/>
+        <text x="639.3" y="298" fill="#e6f3ff" textLength="218.7" lengthAdjust="spacing">Git + Claude Code + VS Code</text>
+      </g>
+      <g opacity="0">
+        <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.05s" fill="freeze"/>
+        <text x="272" y="328" fill="#2979ff" font-weight="bold" textLength="40.5" lengthAdjust="spacing">stack</text>
+        <line x1="320" y1="324" x2="412.6" y2="324" stroke="#27518a" stroke-width="1.5" stroke-dasharray="1 5" stroke-linecap="round"/>
+        <text x="420.6" y="328" fill="#e6f3ff" textLength="437.4" lengthAdjust="spacing">React + Next.js + Docker + Firebase + Vercel + Payload</text>
+      </g>
+      <g opacity="0">
+        <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.3s" fill="freeze"/>
+        <text x="272" y="358" fill="#2979ff" font-weight="bold" textLength="105.3" lengthAdjust="spacing">core_database</text>
+        <line x1="385" y1="354" x2="688.0" y2="354" stroke="#27518a" stroke-width="1.5" stroke-dasharray="1 5" stroke-linecap="round"/>
+        <text x="696.0" y="358" fill="#e6f3ff" textLength="162.0" lengthAdjust="spacing">MongoDB + PostgreSQL</text>
+      </g>
+      <g opacity="0">
+        <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.55s" fill="freeze"/>
+        <text x="272" y="388" fill="#2979ff" font-weight="bold" textLength="81" lengthAdjust="spacing">interested</text>
+        <line x1="361" y1="384" x2="550.3" y2="384" stroke="#27518a" stroke-width="1.5" stroke-dasharray="1 5" stroke-linecap="round"/>
+        <text x="558.3" y="388" fill="#e6f3ff" textLength="299.7" lengthAdjust="spacing">CyberSecurity - Security Architecture</text>
+      </g>
+    </g>
+  </g>
+  <rect x="1" y="1" width="898" height="428" rx="13" fill="none" stroke="#1f4a82" stroke-width="2"/>
+</svg>

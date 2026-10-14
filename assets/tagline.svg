@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="56" viewBox="0 0 900 56" role="img" aria-label="Finalista em Informática e Gestão de Empresas · IT · Cibersegurança">
+  <defs>
+    <clipPath id="frame"><rect width="900" height="56" rx="12"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="900" height="56" fill="#050b17"/>
+  </g>
+  <rect x="1" y="1" width="898" height="54" rx="11" fill="none" stroke="#1f4a82" stroke-width="2"/>
+
+  <g font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'Courier New',monospace" font-size="18" text-anchor="middle" fill="#7fe9ff">
+    <text x="450" y="35" opacity="0">Finalista em Informática e Gestão de Empresas
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.04;0.29;0.33;1" dur="12s" repeatCount="indefinite"/>
+    </text>
+    <text x="450" y="35" opacity="0">IT · Iscte Junior Consulting · JE Europe
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.33;0.37;0.62;0.66;1" dur="12s" repeatCount="indefinite"/>
+    </text>
+    <text x="450" y="35" opacity="0">Cibersegurança · Estratégia &amp; Arquitetura
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.66;0.70;0.95;1" dur="12s" repeatCount="indefinite"/>
+    </text>
+  </g>
+</svg>
